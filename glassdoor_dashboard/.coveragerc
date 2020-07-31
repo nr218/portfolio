@@ -1,0 +1,24 @@
+[paths]
+source =
+   processdata
+   */site-packages
+
+[run]
+branch = true
+source =
+    processdata
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
+    */tests.py
+    */test_*.py
+    */*_tests.py
+    */cli.py
+
+exclude_lines =
+    import
+    pragma: no cover

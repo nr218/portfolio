@@ -1,0 +1,35 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+pre-commit = "*"
+black = "*"
+pytest-django = "*"
+django-debug-toolbar = "*"
+factory-boy = "*"
+
+[packages]
+sqlalchemy = "*"
+sqlalchemy_utils = "*"
+requests = "*"
+setuptools-scm = "*"
+psycopg2 = "==2.7.7"
+django = "*"
+argon2-cffi = "*"
+luigi = "*"
+dask = {extras = ["dataframe"],version = "*"}
+pandas = "*"
+plotly = "*"
+fastparquet = "*"
+python-crontab = "*"
+plan = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
