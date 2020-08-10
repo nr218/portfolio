@@ -1,6 +1,6 @@
 # Data Science Portfolio
 
-##[Django Web Dashboard to Visualize Employee Satisfaction](https://github.com/nr218/portfolio/tree/master/glassdoor_dashboard)
+## [Django Web Dashboard to Visualize Employee Satisfaction](https://github.com/nr218/portfolio/tree/master/glassdoor_dashboard)
 
 The purpose of this project is to:
 1. Load data from the Glassdoor partner API, save it to Postgres SQL Database and perform data cleaning for data analysis to be conducted
@@ -8,7 +8,7 @@ The purpose of this project is to:
 
 Tools Used: Python (Numpy, Dask, Plotly), Luigi, Test Driven Development using Pytest, Pipenv, PostgreSQL, Django
 
-##[Forecasting Bike Share Usage](https://github.com/nr218/portfolio/blob/master/Bike_Share_Usage.ipynb)
+## [Forecasting Bike Share Usage](https://github.com/nr218/portfolio/blob/master/Bike_Share_Usage.ipynb)
 
 The purpose of this project is to:
 1. Conduct data exploration and data visualization to analyze trends in the sales data
@@ -16,7 +16,7 @@ The purpose of this project is to:
 
 Tools Used: Python (Numpy, Pandas, Matplotlib, Statsmodels, Scikit-learn, Seaborn)
 
-##[Cancer Classification from Gene Expression](https://github.com/nr218/portfolio/blob/master/Cancer_Classification.ipynb)
+## [Cancer Classification from Gene Expression](https://github.com/nr218/portfolio/blob/master/Cancer_Classification.ipynb)
 
 The purpose of this project is to:
 1. Use Principal Component Analysis (PCA) to visualize the data and reduce its dimensions
